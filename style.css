@@ -1,0 +1,530 @@
+body, html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    height: 3952px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #000015;
+}
+
+.hero {
+    width: 100%;
+    height: 899px;
+    top: 0px;
+    left: 0px;
+    background-color: #000015;
+}
+
+.arrow-down {
+    cursor: pointer;
+    font-size: 50px;
+    position: absolute;
+    left: 650px;
+    bottom: 20px;
+}
+
+header {
+    width: 1440px;
+    height: 106px;
+    top: 0px;
+    left: 0px;
+}
+
+.Container {
+    width: 1122px;
+    height: 58px;
+    position: relative;
+    top: 48px;
+    left: 159px;
+    padding: auto;
+}
+
+.PartyTyme {
+    width: 156px;
+    height: 41px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background-image: url('img/Party\ Time!.png');
+    background-repeat: no-repeat;
+}
+
+.menu {
+    width: 439px;
+    height: 39px;
+    position: relative;
+    top: -30px;
+    left: 350px;
+}
+
+nav {
+    width: 439px;
+    height: 18px;
+    position: relative;
+    top: -30px;
+    left: 350px;
+    margin: 0;
+    border: 0;
+    padding: 0px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 15px;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+    transition: 1.5s;
+    font-size: 16;
+}
+
+nav ul a:hover {
+    color: #e06710;
+} 
+
+button {
+    width: 160px;
+    height: 56px;
+    position: relative;
+    left: 962px;
+    top: -57px;
+    color: black;
+    background-color: #ff6b00;
+    border: none;
+    border-radius: 16px;
+    transition: 1.5s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff0077;
+}
+
+.onehund {
+    width: 100%;
+    height: 100px;
+    background-color: #000015;
+}
+
+.Galery {
+    width: 100%;
+    height: 663px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background-color: #000015;
+}
+
+.memories {
+    width: 397px;
+    height: 47px;
+    position: relative;
+    top: 0px;
+    left: 450px;
+}
+
+.Photo {
+    width: 1440px;
+    height: 534px;
+    position: relative;
+    left: 0px;
+    top: 78px;
+    background-color: #000015;
+}
+
+.zeroone {
+    width: 245px;
+    height: 245px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background-image: url('img/Galery-Img/image01.png');
+    background-repeat: no-repeat;
+}
+
+.zerotwo {
+    width: 245px;
+    height: 245px;
+    position: relative;
+    top: -245px;
+    left: 293px;
+    background-image: url('img/Galery-Img/image02.png');
+    background-repeat: no-repeat;
+}
+
+.zerothree {
+    width: 245px;
+    height: 245px;
+    position: relative;
+    top: -490px;
+    left: 586px;
+    background-image: url('img/Galery-Img/image03.png');
+    background-repeat: no-repeat;
+}
+
+.zerofour {
+    width: 245px;
+    height: 245px;
+    position: relative;
+    top: -735px;
+    left: 879px;
+    background-image: url('img/Galery-Img/image04.png');
+    background-repeat: no-repeat;
+}
+
+.zerofive {
+    width: 245px;
+    height: 245px;
+    position: relative;
+    top: -980px;
+    left: 1172px;
+    background-image: url('img/Galery-Img/image05.png');
+    background-repeat: no-repeat;
+}
+
+.zerosix {
+    width: 245px;
+    height: 245px;
+    position: relative;
+    top: -933px;
+    left: 0px;
+    background-image: url('img/Galery-Img/image06.png');
+    background-repeat: no-repeat;
+}
+
+.zeroseven {
+    width: 245px;
+    height: 245px;
+    position: relative;
+    top: -1178px;
+    left: 293px;
+    background-image: url('img/Galery-Img/image07.png');
+    background-repeat: no-repeat;
+}
+
+.zeroeit {
+    width: 245px;
+    height: 245px;
+    position: relative;
+    top: -1423px;
+    left: 586px;
+    background-image: url('img/Galery-Img/image08.png');
+    background-repeat: no-repeat;
+}
+
+.zeronine {
+    width: 245px;
+    height: 245px;
+    position: relative;
+    top: -1668px;
+    left: 879px;
+    background-image: url('img/Galery-Img/image09.png');
+    background-repeat: no-repeat;
+}
+
+.zeroten {
+    width: 245px;
+    height: 245px;
+    position: relative;
+    top: -1913px;
+    left: 1172px;
+    background-image: url('img/Galery-Img/image10.png');
+    background-repeat: no-repeat;
+}
+
+.about {
+    width: 100%;
+    height: 750px;
+    top: 0px;
+    left: 0px;
+    background-color: #000015;
+}
+
+.plans {
+    width: 1440px;
+    height: 650px;
+    position: relative;
+    background-color: #000015;
+}
+
+.hosts {
+    width: 360px;
+    height: 47px;
+    position: relative;
+    top: 0px;
+    left: 450px;
+}
+
+.tariff {
+    width: 100%;
+    height: 464px;
+    position: relative;
+    top: 129px;
+    left: 0px;
+    background-color: #000015;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sto {
+    width: 344px;
+    height: 464px;
+    position: relative;
+    top: 0px;
+    left: 189px;
+    background-color: rgb(51, 51, 51);
+    border-radius: 50px;
+    transition: 1.5s;
+    cursor: pointer;
+}
+
+.sto:hover {
+    background-color: rgb(254, 119, 45);
+}
+
+.single {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 5px;
+    left: 0px;
+}
+
+.single img {
+    width: 312px;
+    height: 414px;
+    transition: opacity 1s ease;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+
+.single img.second {
+    opacity: 0;
+}
+.single:hover img.first {
+    opacity: 0;
+}
+.single:hover img.second {
+    opacity: 1;
+}
+
+.stopisat {
+    width: 344px;
+    height: 464px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(51, 51, 51);
+    border-radius: 50px;
+    transition: 1.5s;
+    cursor: pointer;
+}
+
+.stopisat:hover {
+    background-color: rgb(254, 119, 45);
+}
+
+.coupie {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 5px;
+    left: 0px;
+}
+
+.coupie img {
+    width: 312px;
+    height: 414px;
+    transition: opacity 1s ease;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+
+.coupie img.second {
+    opacity: 0;
+}
+.coupie:hover img.first {
+    opacity: 0;
+}
+.coupie:hover img.second {
+    opacity: 1;
+}
+
+.trista {
+    width: 344px;
+    height: 464px;
+    position: relative;
+    top: 0px;
+    left: -189px;
+    background-color: rgb(51, 51, 51);
+    border-radius: 50px;
+    transition: 1.5s;
+    cursor: pointer;
+}
+
+.trista:hover {
+    background-color: rgb(254, 119, 45);
+}
+
+.combine {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 5px;
+    left: 0px;
+}
+
+.combine img {
+    width: 312px;
+    height: 414px;
+    transition: opacity 1s ease;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+
+.combine img.second {
+    opacity: 0;
+}
+.combine:hover img.first {
+    opacity: 0;
+}
+.combine:hover img.second {
+    opacity: 1;
+}
+
+footer {
+    width: 100%;
+    height: 788px;
+    background-color: #000015;
+}
+
+.containertwo {
+    width: 1440px;
+    height: 604px;
+    position: relative;
+    top: 184px;
+    left: 0px;
+    background-color: #000015;
+}
+
+.phone {
+    width: 630px;
+    height: 52px;
+    position: relative;
+    top: 313px;
+    left: 450px;
+    background-image: url('img/phone.png');
+}
+
+.icons {
+    width: 268px;
+    height: 81px;
+    position: relative;
+    top: 412px;
+    left: 629px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    background-color: #000015;
+}
+
+.be {
+    width: 41px;
+    height: 41px;
+    position: relative;
+    top: 20px;
+    left: 0px;
+    background-image: url('img/icons/behance.png');
+}
+
+.Figma {
+    width: 41px;
+    height: 41px;
+    position: relative;
+    top: 20px;
+    left: 2.5px;
+    background-image: url('img/icons/Figma.png');
+}
+
+.LD {
+    width: 41px;
+    height: 41px;
+    position: relative;
+    top: 20px;
+    left: 5px;
+    background-image: url('img/icons/LinkedIn.png');
+}
+
+.inst {
+    width: 41px;
+    height: 41px;
+    position: relative;
+    top: 20px;
+    left: 7.5px;
+    background-image: url('img/icons/instagram.png');
+}
+
+.YouTube {
+    width: 41px;
+    height: 41px;
+    position: relative;
+    top: 20px;
+    left: -1px;
+    background-image: url('img/icons/youtube.png');
+}
+
+.absolute {
+    width: 604px;
+    height: 506px;
+    position: relative;
+    left: 25px;
+    top: -850px;
+    background-image: url('img/Fon-image/absolute.png');
+    transform: -153;
+}
+
+.pautineone {
+    width: 526px;
+    height: 739px;
+    position: relative;
+    left: 910px;
+    top: -550px;
+    background-image: url('img/Fon-image/pautinaone.png');
+}
+
+.spider {
+    width: 60px;
+    height: 528px;
+    position: relative;
+    top: -790px;
+    left: 140px;
+    background-image: url('img/Fon-image/spider.png');
+}
+
+.center {
+    width: 100%;
+    height: 444px;
+    position: relative;
+    top: -600px;
+    left: 0px;
+    background-image: url('img/Fon-image/center.png');
+    background-repeat: repeat-x;
+}
